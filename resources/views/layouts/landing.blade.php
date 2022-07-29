@@ -80,6 +80,6 @@
         })
     });
     </script>
-
+    <p style=" position: absolute; bottom: 0; left: 0; width: 100%; text-align: right; "><a style="margin-right:5px" class="text-info" href="{{route('login')}}"> @if(auth()->check()) แดชบอร์ด @else เข้าสู่ระบบ @endif</a> </p>
 </body>
 </html>
